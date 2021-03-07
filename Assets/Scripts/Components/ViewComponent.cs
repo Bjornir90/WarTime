@@ -11,3 +11,8 @@ public class ViewComponent : IComponent{
 public class PositionComponent : IComponent{
     public Vector3 value;
 }
+
+[Game]
+public class GridElementComponent : IComponent {
+    
+}
